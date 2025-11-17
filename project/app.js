@@ -316,7 +316,12 @@ function select_student_all(){
         db.all(`SELECT * FROM Students`,(err,table) => {
             if (err) return console.log(err.message)
             console.log(table)
+            db.close(function(err){
+                if (err) return console.error(err.message);
+                console.log('Close the database connection.')
+            }); 
     });
+     
 }
 
 
