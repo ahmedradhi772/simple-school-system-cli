@@ -20,25 +20,24 @@
 ## 🚀 كيفية الإعداد والتشغيل (Getting Started)
 
 لتشغيل المشروع على جهازك، يجب أن يكون لديك Node.js مثبتاً. اتبع الخطوات التالية بالترتيب:
-```bash
+
 ### 1. استنساخ المستودع (Clone the Repository)
 
 قم بنسخ المستودع إلى جهازك باستخدام أمر Git التالي:
-it clone https://github.com/ahmedradhi772/simple-school-system-cli.git
 
-
-
-### 2.  تثبيت الاعتماديات (Install Dependencies)
-
+```bash
+git clone https://github.com/ahmedradhi772/simple-school-system-cli.git
+2. تثبيت الاعتماديات (Install Dependencies)
 قم بتثبيت المكتبات الضرورية (sqlite3 و readline-sync) عبر npm:
 
+Bash
+
 npm install sqlite3 readline-sync
-
-
-### 3.   تشغيل البرنامج (Run the Application)
-
+3. تشغيل البرنامج (Run the Application)
 شغل الملف الرئيسي للمشروع باستخدام Node. (بما أن اسم ملفك هو app.js):
 
-**node app.js**
+Bash
+
+node app.js
 
 
