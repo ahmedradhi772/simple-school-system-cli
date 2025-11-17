@@ -24,20 +24,22 @@
 ### 1. استنساخ المستودع (Clone the Repository)
 
 قم بنسخ المستودع إلى جهازك باستخدام أمر Git التالي:
-
 ```bash
-git clone https://github.com/ahmedradhi772/simple-school-system-cli.git
-2. تثبيت الاعتماديات (Install Dependencies)
+it clone https://github.com/ahmedradhi772/simple-school-system-cli.git
+```
+
+
+### 2.  تثبيت الاعتماديات (Install Dependencies)
+
 قم بتثبيت المكتبات الضرورية (sqlite3 و readline-sync) عبر npm:
-
-Bash
-
+```bash
 npm install sqlite3 readline-sync
-3. تشغيل البرنامج (Run the Application)
+```
+
+### 3.   تشغيل البرنامج (Run the Application)
+
 شغل الملف الرئيسي للمشروع باستخدام Node. (بما أن اسم ملفك هو app.js):
-
-Bash
-
+```bash
 node app.js
-
+```
 
