@@ -11,7 +11,7 @@
 | التقنية / المكتبة | الوصف |
 | :--- | :--- |
 | **Node.js** | بيئة التشغيل الأساسية. |
-| **sqlite3** | مكتبة Node.js للتفاعل مع قاعدة بيانات SQLite. |
+| **sqlite3** | مكتبة نود جي اس للتفاعل مع قاعدة بيانات اس كيو لايت. |
 | **readline-sync** | مكتبة لمعالجة المدخلات بشكل متزامن عبر سطر الأوامر (CLI). |
 
 ###  كيفية الإعداد والتشغيل (Getting Started)
@@ -22,7 +22,7 @@
 
 قم بنسخ المستودع إلى جهازك باستخدام أمر Git التالي:
 ```bash
-it clone https://github.com/ahmedradhi772/simple-school-system-cli.git
+git clone https://github.com/ahmedradhi772/simple-school-system-cli.git
 ```
 
 
@@ -35,7 +35,7 @@ npm install sqlite3 readline-sync
 
 ### 3.   تشغيل البرنامج (Run the Application)
 
-شغل الملف الرئيسي للمشروع باستخدام Node. (بما أن اسم ملفك هو app.js):
+شغل الملف الرئيسي للمشروع باستخدام Node.
 ```bash
 node app.js
 ```
