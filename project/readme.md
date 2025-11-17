@@ -30,7 +30,7 @@ git clone [https://github.com/ahmedradhi772/simple-school-system-cli.git](https:
 2. تثبيت الاعتماديات (Install Dependencies)
 قم بتثبيت المكتبات الضرورية (sqlite3 و readline-sync) عبر npm:
 npm install sqlite3 readline-sync
-
+```
 
 
 3. تشغيل البرنامج (Run the Application)
